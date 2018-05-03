@@ -15,6 +15,6 @@
 		"typo3-ter/themes_millerntor": "self.version"
 	},
 	"require": {
-		"typo3-themes/theme-bootstrap": "^7"
+		"typo3-ter/themes_bootstrap": "7.0.1"
 	}
 }
