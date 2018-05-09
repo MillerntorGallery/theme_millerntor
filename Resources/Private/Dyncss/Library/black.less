@@ -1,5 +1,14 @@
+
 .theme-black {
-    
+
+    font-size: 16px;
+
+    &.page-layout-0 {
+        margin-top: 60px;
+        #areaLogo {
+            display: none;
+        }
+    }
     a {
         color:@white; 
     }
@@ -16,6 +25,7 @@
     	 {
     		color: @white;
     		text-transform: lowercase;
+            font-weight: unset;
     	}
     	&.nav > li > span > a.actLang {
     		text-decoration: underline;
@@ -67,9 +77,13 @@
      	}
         h4 {
     		margin: 10px 0 5px;
+            font-size: 18px;
+            font-weight: unset;
     	}
     	h3 {
     	    margin: 20px 0 0px;
+            font-size: 29px;
+            font-weight: unset;
     	}
      }
      
@@ -99,6 +113,19 @@
         border: 0px solid @white;
         border-radius: 0px 0px 0px 0px;
         box-shadow: 4px 4px 1px rgba(255, 255, 255, 1);
+    }
+    .blackwell {
+        color: @white;
+        background-color: @black;
+        border: 2px solid @white;
+        border-radius: 0;
+        box-shadow: 4px 4px 1px rgba(255, 255, 255, 1);
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding: 10px;
+        h3 a,p,a {
+            color: #fff;
+        }
     }
     .container .jumbotron,
     .jumbotron {
@@ -192,8 +219,41 @@
     	.legend {
     		.unit {
     			border: 1px solid @white;
+                color: @white;
     		}
     	}
+        .Film,.film {
+        
+        color: @black;
+    }
+    
+    .Music, .music, .Musik, .musik {
+        
+        color: @black;
+    }
+    
+    .Culture, .culture, .Kultur, .kultur {
+        
+        color: @black;
+    }
+    .Action, .action, .Kunst, .kunst {
+        
+        color: @black;
+    }
+    .Film,.film {
+        background-color: #706f6f;
+    }
+    
+    .Music, .music, .Musik, .musik {
+        background-color: #e2001a;
+    }
+    
+    .Culture, .culture, .Kultur, .kultur {
+        background-color: #604734;
+    }
+    .Action, .action, .Kunst, .kunst {
+        background-color: #000;
+    }
     }
     #locationgrid {
     	    	
@@ -206,6 +266,11 @@
     	.collapse .well {
     		color: @text-color;
     	}
+        .vevent.well {
+            background-color: @white;
+            border: 1px solid @black;
+            box-shadow: 4px 4px 1px rgba(255, 255, 255, 1);
+        }
     	
     	a {
     		color: @black;

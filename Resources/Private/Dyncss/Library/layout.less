@@ -85,10 +85,15 @@ body.theme-white {
 	background-color: @white;
 	color: @black;
 }
+//.ce-media img {
+//	width: 100%;
+//	height: auto;
+//}
 
 a:focus {
 	outline: none;
 }
+
 
 .navbar-brand {
 	height: auto;
@@ -389,6 +394,12 @@ div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
 
 }
 
+.csc-textpic .csc-textpic-imagewrap img {
+	width: 100%;
+	height: auto;
+
+}
+
 div.csc-textpic-border {
 	padding-bottom: 5px;
 	div.csc-textpic-imagewrap img {
@@ -416,6 +427,31 @@ div.csc-textpic div.csc-textpic-imagerow {
 	    margin-left: 1em;
 	    text-transform: uppercase;
 	}	
+}
+
+.csc-form-element {
+	.checkbox input[type="checkbox"] {
+		width: 30px;
+		height: 30px;
+		margin-top: -10px;
+		margin-left: 0px;
+	}
+	.checkbox {
+		margin-bottom: 20px;
+		label {
+			padding-left: 40px;
+		}
+	}
+	label {
+		em {
+			display: block;
+			font-size: 12px;
+		}
+	}
+	.btn-primary {
+		background-color: @white;
+		color: @black;
+	}
 }
 
 
