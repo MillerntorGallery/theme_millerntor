@@ -25,6 +25,9 @@ themes.configuration.favicon = typo3conf/ext/theme_millerntor/Resources/Public/I
 # cat=theme,basic//; type=string; label=Site slogan
 themes.configuration.siteSlogan = Art creates water
 
+# cat=theme,basic//; type=options[0,1]; label= Show logo area
+themes.configuration.showLogoArea = 1
+
 
 # customsubcategory=spamProtect= SpamProtect
 

@@ -17,16 +17,18 @@
 		</div>
 	</div>
 	<div id="areaLogo" class="container">
-		<section class="row">
-			<div id="logoWrapper" class="navbar-brand">
-				<f:cObject typoscriptObjectPath="lib.header.logo.edition" />
-				<f:cObject typoscriptObjectPath="lib.header.logo.main" />
-				<f:cObject typoscriptObjectPath="lib.header.logo.water" />
-				
-				<f:cObject typoscriptObjectPath="lib.header.logo.slogan" />
-				<f:cObject typoscriptObjectPath="lib.header.logo.date" />
-			</div>
-		</section>
+		<f:if condition="{theme:constant(constant: 'themes.configuration.showLogoArea')}">
+			<section class="row">
+				<div id="logoWrapper" class="navbar-brand">
+					<f:cObject typoscriptObjectPath="lib.header.logo.edition" />
+					<f:cObject typoscriptObjectPath="lib.header.logo.main" />
+					<f:cObject typoscriptObjectPath="lib.header.logo.water" />
+					
+					<f:cObject typoscriptObjectPath="lib.header.logo.slogan" />
+					<f:cObject typoscriptObjectPath="lib.header.logo.date" />
+				</div>
+			</section>
+		</f:if>
 	</div>			
 	
 	<div class="container">
