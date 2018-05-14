@@ -20,7 +20,6 @@
 	background: none repeat scroll 0 0 #FFF;
 	border: 2px solid @black;
 	border-radius: 0px 0px 0px 0px;
-	box-shadow: 6px 6px 1px rgba(243, 152, 200, 0.65);
 	box-shadow: 6px 6px 1px rgba(0, 0, 0, 0.65);
 	width: 100%;
 	height: 100%;
@@ -31,7 +30,7 @@
 	}
 	.theme-white & {
 		border: 2px solid @black;
-		box-shadow: 6px 6px 1px rgba(243, 152, 200, 0.65);
+		box-shadow: 6px 6px 1px rgba(0, 0, 0, 0.65);
 	}
 	
 } 
@@ -74,7 +73,7 @@ body {
 	
 }
 
-body.theme-black, body.theme-white {
+body.theme-black, body.theme-white, body.theme-color {
 	background:none;
 }
 body.theme-black {
@@ -82,6 +81,10 @@ body.theme-black {
 	color: @white;
 }
 body.theme-white {
+	background-color: @white;
+	color: @black;
+}
+body.theme-color {
 	background-color: @white;
 	color: @black;
 }

@@ -11,7 +11,7 @@
 # General theme layout
 #############################################
 
-# cat=colors,basic/colors_theme/; type=options[black,white,default]; label= Primary layout theme
+# cat=colors,basic/colors_theme/; type=options[black,white,color,default]; label= Primary layout theme
 themes.configuration.colors.theme = black
 
 # General colors

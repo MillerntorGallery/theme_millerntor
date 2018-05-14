@@ -5,3 +5,22 @@
 
 
 # Extensions
+
+TCEFORM.pages.layout {
+	addItems {
+		4 = x
+		5 = x
+		6 = x
+		7 = x
+	}
+	altLabels {
+		0 = Default (White)
+		1 = Gelb
+		2 = Orange
+		3 = Rot
+		4 = Pink
+		5 = Lila
+		6 = Blau
+		7 = Grün
+	}
+}

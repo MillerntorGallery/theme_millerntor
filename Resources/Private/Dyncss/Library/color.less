@@ -1,0 +1,75 @@
+.theme-color {
+	@gelb: #ffc803;
+	@orange: #fd6818;
+	@rot: #ff2926;
+	@pink: #fd496e;
+	@lila: #b74b97;
+	@blau: #40a3e4;
+	@gruen: #12c180;
+
+	&.color-1 {
+		background: url('@{baseurl}/Images/Background/Yellow_Splatter_Big.png') no-repeat fixed center center;	
+	}
+	&.color-2 {
+		background: url('@{baseurl}/Images/Background/Orange_Splatter_Big.png') no-repeat fixed center center;	
+	}
+	&.color-3 {
+		background: url('@{baseurl}/Images/Background/Red_Splatter_Big.png') no-repeat fixed center center;	
+	}
+	&.color-4 {
+		background: url('@{baseurl}/Images/Background/Pink_Splatter_Big.png') no-repeat fixed center center;	
+	}
+	&.color-5 {
+		background: url('@{baseurl}/Images/Background/Purple_Splatter_Big.png') no-repeat fixed center center;	
+	}
+	&.color-6 {
+		background: url('@{baseurl}/Images/Background/Blue_Splatter_Big.png') no-repeat fixed center center;	
+	}
+	&.color-7 {
+		background: url('@{baseurl}/Images/Background/Green_Splatter_Big.png') no-repeat fixed center center;	
+	}
+	.navbar-millerntor {
+		background-color: transparent;
+	}
+	.navbar-main {
+		li.color-1 {
+			background-color: @gelb;
+		}
+		li.color-2 {
+			background-color: @orange;
+		}
+		li.color-3 {
+			background-color: @rot;
+		}
+		li.color-4 {
+			background-color: @pink;
+		}
+		li.color-5 {
+			background-color: @lila;
+		}
+		li.color-6 {
+			background-color: @blau;
+		}
+		li.color-7 {
+			background-color: @gruen;
+		}
+
+		&.nav > li.dropdown > a:hover, 
+		&.nav > li.dropdown > a:focus,
+		&.nav > li > a:hover, 
+		&.nav > li > a:focus,
+		&.nav > li.active > a,
+		&.nav > li.dropdown.open > a,
+		&.nav .open > a,
+		&.nav .open > a:hover,
+		&.nav .open > a:focus {
+			background-color: inherit;
+			color: #fff;
+		} 
+
+		.dropdown:hover .dropdown-menu {
+		    display: block;
+		    background-color: inherit;
+		 }
+	}
+}

@@ -22,4 +22,12 @@ page.bodyTagCObject.20.20 {
 	value = {$themes.configuration.colors.theme}
 }
 
+# Color Layout
+page.bodyTagCObject.20.30 = TEXT
+page.bodyTagCObject.20.30 {
+	noTrimWrap = |color-| | 
+	data = levelfield : -1, layout, slide
+	
+}
+
 # Extensions
